@@ -8,26 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Abdulm\\.nuget\\packages\\": {}
+    "/Users/deb/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abdulm\\source\\repos\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
+      "projectUniqueName": "/Users/deb/Desktop/PJATK/BYT/DesignPattern/DesignPattern/DesignPattern.csproj",
       "projectName": "DesignPattern",
-      "projectPath": "C:\\Users\\Abdulm\\source\\repos\\DesignPattern\\DesignPattern\\DesignPattern.csproj",
-      "packagesPath": "C:\\Users\\Abdulm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abdulm\\source\\repos\\DesignPattern\\DesignPattern\\obj\\",
+      "projectPath": "/Users/deb/Desktop/PJATK/BYT/DesignPattern/DesignPattern/DesignPattern.csproj",
+      "packagesPath": "/Users/deb/.nuget/packages/",
+      "outputPath": "/Users/deb/Desktop/PJATK/BYT/DesignPattern/DesignPattern/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Abdulm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/deb/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -61,12 +60,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.20, 8.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.osx-arm64",
+            "version": "[8.0.20, 8.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.20, 8.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
